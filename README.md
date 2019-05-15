@@ -1,2 +1,1 @@
 # CampusTransaction
-fuck you
