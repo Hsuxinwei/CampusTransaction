@@ -121,7 +121,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="passwordaQLineEdit"/>
+      <widget class="QLineEdit" name="spasswordQLineEdit"/>
      </item>
     </layout>
    </widget>
@@ -129,7 +129,7 @@
   <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
-     <x>210</x>
+     <x>280</x>
      <y>1860</y>
      <width>591</width>
      <height>71</height>
@@ -170,14 +170,14 @@
      <x>210</x>
      <y>1060</y>
      <width>701</width>
-     <height>411</height>
+     <height>511</height>
     </rect>
    </property>
    <property name="orientation">
     <enum>Qt::Vertical</enum>
    </property>
    <widget class="QWidget" name="layoutWidget">
-    <layout class="QHBoxLayout" name="horizontalLayout">
+    <layout class="QHBoxLayout" name="horizontalLayout_8R">
      <item>
       <widget class="QLabel" name="studentnQLabel">
        <property name="text">
@@ -189,6 +189,8 @@
       <widget class="QLineEdit" name="studentnQLineEdit"/>
      </item>
     </layout>
+    <zorder>studentnQLineEdit</zorder>
+    <zorder>studentnQLabel</zorder>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <layout class="QHBoxLayout" name="horizontalLayout_6R">

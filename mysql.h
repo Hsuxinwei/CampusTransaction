@@ -6,6 +6,6 @@
 #include <QSqlError>
 #include <QtDebug>
 
-void connect_mysql();
+static bool connect_mysql();
 
 #endif // MYSQL_H
