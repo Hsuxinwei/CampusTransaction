@@ -5,6 +5,7 @@
 #include <QPushButton>
 #include <QLabel>
 #include <QLineEdit>
+#include <QMessageBox>
 
 namespace Ui {
 class Login;
@@ -26,7 +27,8 @@ public:
     explicit Login(QWidget *parent = nullptr);
     ~Login();
 
-
+    QString usernamel;
+    QString passwordl;
 
 private slots:
     void showLogin();
@@ -38,7 +40,7 @@ private slots:
 
 
 signals:
-    void showRegister();
+    void gotoRegister();
     void gotoTransaction();
 
 private:

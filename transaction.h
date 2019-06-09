@@ -35,10 +35,12 @@ private slots:
 
     void on_personQPB_clicked();
 
+
 signals:
-    void gotoSell();
+    void gotoReleaseGoods();
     void gotoMessage();
-    void gotoPerson();
+    void gotoPersonalInfo();
+    void gotoGoodsDisplay();
 
 private:
     Ui::Transaction *ui;

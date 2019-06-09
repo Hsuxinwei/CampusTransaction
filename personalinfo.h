@@ -24,10 +24,33 @@ public:
 
 
 private slots:
+    void showPersonalInfo();
 
+    void on_tradeQPB_clicked();
+
+    void on_sellQPB_clicked();
+
+    void on_messageQPB_clicked();
+
+    void on_publishedgoodsQPB_clicked();
+
+    void on_selledgoodsQPB_clicked();
+
+    void on_boughtgoodsQPB_clicked();
+
+    void on_donatedgoodsQPB_clicked();
+
+    void on_tradinggoodsQPB_clicked();
+
+    void on_modifypersonQPB_clicked();
+
+    void on_settingQPB_clicked();
+
+    void on_userimage_personQPB_clicked();
 
 signals:
-
+    void gotoTransaction();
+    void gotoReleaseGoods();
 
 private:
     Ui::PersonalInfo *ui;

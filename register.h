@@ -29,7 +29,7 @@ public:
 
 
 private slots:
-    void receiveRegister();
+    void showRegister();
 
 
     void on_sureQPB_clicked();

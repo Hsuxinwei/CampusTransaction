@@ -24,7 +24,7 @@
     <rect>
      <x>220</x>
      <y>310</y>
-     <width>681</width>
+     <width>680</width>
      <height>371</height>
     </rect>
    </property>
@@ -169,15 +169,15 @@
     <rect>
      <x>210</x>
      <y>1060</y>
-     <width>701</width>
-     <height>511</height>
+     <width>700</width>
+     <height>521</height>
     </rect>
    </property>
    <property name="orientation">
     <enum>Qt::Vertical</enum>
    </property>
    <widget class="QWidget" name="layoutWidget">
-    <layout class="QHBoxLayout" name="horizontalLayout_8R">
+    <layout class="QHBoxLayout" name="horizontalLayout_8R" stretch="1,10">
      <item>
       <widget class="QLabel" name="studentnQLabel">
        <property name="text">
@@ -193,7 +193,7 @@
     <zorder>studentnQLabel</zorder>
    </widget>
    <widget class="QWidget" name="layoutWidget">
-    <layout class="QHBoxLayout" name="horizontalLayout_6R">
+    <layout class="QHBoxLayout" name="horizontalLayout_6R" stretch="1,10">
      <item>
       <widget class="QLabel" name="numberQLabel">
        <property name="text">
@@ -207,7 +207,21 @@
     </layout>
    </widget>
    <widget class="QWidget" name="layoutWidget">
-    <layout class="QHBoxLayout" name="horizontalLayout_4R">
+    <layout class="QHBoxLayout" name="horizontalLayout_2R_2" stretch="1,10">
+     <item>
+      <widget class="QLabel" name="schoolQLabel">
+       <property name="text">
+        <string>学校</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="schoolQLineEdit"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <layout class="QHBoxLayout" name="horizontalLayoutR_2" stretch="1,10">
      <item>
       <widget class="QLabel" name="collegeQLabel">
        <property name="text">
@@ -216,12 +230,83 @@
       </widget>
      </item>
      <item>
-      <widget class="QLineEdit" name="collegeQLineEdit"/>
+      <widget class="QComboBox" name="colleageQCB">
+       <item>
+        <property name="text">
+         <string>信息科学技术学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>机电工程学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>自动化与电子工程学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>经济与管理学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>外国语学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>艺术学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>传媒学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>马克思主义学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>法学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>数理学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>中德科技学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>国际学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>体育学院</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>中德工程学院</string>
+        </property>
+       </item>
+      </widget>
      </item>
     </layout>
    </widget>
    <widget class="QWidget" name="layoutWidget">
-    <layout class="QHBoxLayout" name="horizontalLayout_5R">
+    <layout class="QHBoxLayout" name="horizontalLayout_5R" stretch="1,10">
      <item>
       <widget class="QLabel" name="classQLabel">
        <property name="text">
@@ -231,6 +316,20 @@
      </item>
      <item>
       <widget class="QLineEdit" name="classQLIneEdit"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="">
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,10">
+     <item>
+      <widget class="QLabel" name="phoneQLabel">
+       <property name="text">
+        <string>联系电话</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="phoneQLineEdit"/>
      </item>
     </layout>
    </widget>
